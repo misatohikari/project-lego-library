@@ -57,4 +57,5 @@ This file contains the backend logic for the web application. It utilizes Expres
 
 The server is initialized to listen on the specified port, and the Lego and authentication data are initialized upon starting the server.
 
-In summary, the Digital Lego Library employs dual database integration, Express server setup with session management, and dynamic web pages using EJS templates to create a user-friendly and efficient platform for managing Lego collections. This combination of technologies ensures optimized data management, scalability, and interactive user experience, catering to the needs of Lego enthusiasts worldwide.
+## **Summary**
+The Digital Lego Library employs dual database integration, Express server setup with session management, and dynamic web pages using EJS templates to create a user-friendly and efficient platform for managing Lego collections. This combination of technologies ensures optimized data management, scalability, and interactive user experience, catering to the needs of Lego enthusiasts worldwide.
