@@ -1,5 +1,5 @@
 # **Lego Collection Web Application**
-![alt text](img/lego_home.png)
+![alt text](./md/img/lego_home.png)
 
 The Digital Lego Library is a web application designed to provide users with a platform to manage and explore their Lego collections. Users can add, edit, and delete Lego sets, view detailed information about each set, filter sets by theme, and track their login history. This application serves as a centralized database for Lego enthusiasts to organize and interact with their collections digitally.
 
@@ -21,30 +21,30 @@ Dynamic web pages are generated using Embedded JavaScript (EJS) templates, allow
 
 - **sets.ejs**: Shows a list of Lego sets in the collection. Users can browse through the sets, view their names, years released, number of parts, themes, and images. It also provides filtering options by theme.
 
-![alt text](img/lego_sets.png)
+![alt text](./md/img/lego_sets.png)
 
 - **set.ejs**: Displays detailed information about a specific Lego set. Users can view the set's name, year released, number of parts, theme, and image. If the user is logged in, they have the option to edit the set.
 
-![alt text](img/lego_detail.png)
+![alt text](./md/img/lego_detail.png)
 
 - **login.ejs**: Provides a login form for users to access their accounts. Users need to enter their username and password to log in. Error messages are displayed if there are issues during login.
 
-![alt text](img/lego_login.png)
+![alt text](./md/img/lego_login.png)
 - **register.ejs**: Allows users to register for a new account. Users need to provide a username, password, confirm password, and email address. Error messages are displayed if there are issues during registration. Upon successful registration, a success message is shown.
 
-![alt text](img/lego_register.png)
+![alt text](./md/img/lego_register.png)
 
 - **editSet.ejs**: This view allows logged-in users to edit existing Lego sets by providing access to the edit button. Users can modify the name, year, number of parts, image URL, and theme of a set using a form.
-![alt text](img/lego_login_detail.png)
-![alt text](img/lego_editSet.png)
+![alt text](./md/img/lego_login_detail.png)
+![alt text](./md/img/lego_editSet.png)
 - **addSet.ejs**: Users can add new Lego sets to the collection using this view. The form allows users to input the name, year, number of parts, image URL, theme, and set number of a new set.
 
-![alt text](img/lego_addSet.png)
+![alt text](./md/img/lego_addSet.png)
 
 
 - **userHistory.ejs**: Displays the login history of the current user. It shows the date/time of each login and the client information (user-agent). Accessible only to logged-in users.
 
-![alt text](img/lego_userHistory.png)
+![alt text](./md/img/lego_userHistory.png)
 
 ## **service.js**
 
