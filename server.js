@@ -1,4 +1,4 @@
-//Published URL: _____https://cloudy-ox-shawl.cyclic.app/
+//Published URL: 
 
 
 const legoData = require("./modules/legoSets");
